@@ -12,7 +12,14 @@ sections:
   templates:
   - info-page
 - type: heading
-  label: Content
+  label: Last Cloudia
+- type: directory
+  path: ''
+  label: Characers
+  create: all
+  match: "**/*"
+  templates:
+  - character
 - type: directory
   path: content/posts
   label: Blog Posts
