@@ -1,4 +1,34 @@
 ---
 label: Character
 hide_body: false
-fields: []
+fields:
+- name: character_name
+  type: text
+  config:
+    required: false
+  label: Character Name
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Anything about this character
+- name: element
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Fire
+    - Earth
+    - Water
+    source:
+      type: simple
+      section: blog-posts
+      file: content/posts/on-the-geneology-of-morals.md
+      path: 
+  label: Element
