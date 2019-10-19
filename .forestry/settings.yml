@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: ''
-  label: Testing Directory
-  create: all
-  match: "**/*"
-  templates:
-  - info-page
 - type: heading
   label: Last Cloudia
 - type: directory

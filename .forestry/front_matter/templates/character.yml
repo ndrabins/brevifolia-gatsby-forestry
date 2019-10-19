@@ -32,3 +32,5 @@ fields:
       file: content/posts/on-the-geneology-of-morals.md
       path: 
   label: Element
+pages:
+- frank.md
