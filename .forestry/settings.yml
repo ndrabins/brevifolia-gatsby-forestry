@@ -7,10 +7,11 @@ sections:
 - type: heading
   label: Last Cloudia
 - type: directory
-  path: ''
+  path: content/characters
   label: Characers
-  create: all
+  create: documents
   match: "**/*"
+  new_doc_ext: ".md"
   templates:
   - character
 - type: directory
