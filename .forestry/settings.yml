@@ -11,7 +11,7 @@ sections:
   label: Characers
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - character
 - type: directory
